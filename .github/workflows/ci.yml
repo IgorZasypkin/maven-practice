@@ -13,4 +13,4 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
-      - run: mvn package
+      - run: mvn -B package
